@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+
 html {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Send Flowers', cursive;;
     background-color: #fff;
 }
 
@@ -12,7 +15,9 @@ body {
 header {
     text-align: center;
     background-color: #6b469a;
-    padding: 10px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
 }
 
 h1 {
@@ -31,6 +36,7 @@ nav {
     margin: 10px;
     padding: 10px;
     background-color: #999999;
+    width: 200px;
 }
 
 a {
@@ -63,4 +69,11 @@ footer {
     color: #fff;
 }
 
-/* Your code here */
+nav a {
+    display: block;
+}
+#homepage-image{
+    width: 300px;
+    height: 200px;
+    border: 3px dashed #12db7d;
+}

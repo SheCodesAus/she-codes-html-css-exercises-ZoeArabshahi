@@ -1,0 +1,24 @@
+body {
+    background-color: lavender;
+}
+div {
+    background-color: rgb(134, 83, 37);
+}
+.list-item {
+    background-color: aqua;
+}
+.main-heading {
+    background-color: brown;
+}
+#first-paragraph {
+    background-color: chartreuse;
+}
+#first-nav{
+    background-color: mediumpurple;
+}
+#last-nav{
+    background-color: gold;
+}
+#div1{
+    background-color: rgb(241, 78, 78);
+}
