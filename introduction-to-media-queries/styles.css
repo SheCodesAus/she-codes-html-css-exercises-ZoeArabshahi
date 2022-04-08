@@ -30,3 +30,37 @@ div {
 }
 
 /*** Your code here ***/
+/* @media (min-width: 500px) {
+    div {
+    display: inline-block;
+    width: 44%;
+    }#div-3,#div-4{background-color: #6495ed;}
+   }
+@media (min-width: 900px) {
+    div {
+    width: 23%;
+    font-size: 26pt;
+    background-color: #9370db;
+    }
+    #div-3,#div-4{
+        background-color: chartreuse;
+    }
+   } */
+
+@media (max-width: 900px) {
+    div {
+    width: 23%;
+    font-size: 26pt;
+    background-color: #9370db;
+    }
+    #div-3,#div-4{
+        background-color: chartreuse;
+    }
+   }
+@media (max-width: 500px) {
+    div {
+    display: inline-block;
+    width: 44%;
+    }#div-3,#div-4{background-color: #6495ed;}
+   }
+
