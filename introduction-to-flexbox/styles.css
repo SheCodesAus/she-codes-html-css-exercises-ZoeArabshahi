@@ -13,6 +13,12 @@ body {
     font-size: 1rem;
     font-weight: bold;
     height: calc(100% - 14px);
+    display: Flex;
+    /* horizental alignment */
+    justify-content: center;
+    flex-wrap: wrap;
+    /* vertical alignment */
+    align-content: center;
 }
 
 div {
@@ -20,4 +26,15 @@ div {
     background-color: #FDA103;
 }
 
-/*** Your code here ***/
+** Your code here ***/
+.demo-div{
+    flex-grow: 1;
+}
+
+#div-6{
+    flex-grow: 2;
+}
+
+#div-1{
+    flex-basis: 20%;
+}
